@@ -8,5 +8,5 @@ app.get("/" , (req , res)=>{
 })
 
 app.listen(config.port , ()=>{
-    console.log("server started successfully")
+    console.log("server started successfully on port : ", config.port)
 })
